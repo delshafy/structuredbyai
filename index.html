@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Structured by AI — AI Automation Studio</title>
+<meta name="description" content="I build the AI agents and automations that delete your busywork — and make them run reliably 24/7." />
+<style>
+  :root{
+    --bg:#0a0e16; --bg2:#0f1623; --card:#141d2b; --line:#1f2c3e;
+    --txt:#e8eef6; --mut:#93a4ba; --acc:#3ddc97; --acc2:#4f8cff;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--txt);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:980px;margin:0 auto;padding:0 22px}
+  .acc{color:var(--acc)}
+  nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;font-weight:700}
+  nav .pill{font-size:13px;color:var(--mut);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-weight:600}
+  header{padding:60px 0 50px;background:radial-gradient(900px 400px at 70% -10%,rgba(79,140,255,.16),transparent),radial-gradient(700px 350px at 10% 10%,rgba(61,220,151,.12),transparent)}
+  h1{font-size:clamp(32px,5.5vw,52px);line-height:1.08;letter-spacing:-.02em;font-weight:800}
+  .tag{font-size:clamp(17px,2.4vw,22px);color:var(--mut);margin-top:18px;max-width:640px}
+  .cta{display:inline-flex;gap:10px;margin-top:28px}
+  .btn{background:var(--acc);color:#04130c;font-weight:700;padding:13px 22px;border-radius:10px}
+  .btn.ghost{background:transparent;color:var(--txt);border:1px solid var(--line)}
+  .badges{margin-top:26px;display:flex;gap:10px;flex-wrap:wrap;color:var(--mut);font-size:13px}
+  .badges span{border:1px solid var(--line);border-radius:8px;padding:6px 11px}
+  section{padding:46px 0;border-top:1px solid var(--line)}
+  h2{font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--acc);font-weight:700}
+  .lead{font-size:clamp(22px,3vw,30px);font-weight:700;letter-spacing:-.01em;margin-top:10px}
+  .grid{display:grid;gap:16px;margin-top:26px}
+  .g3{grid-template-columns:repeat(3,1fr)}
+  .g2{grid-template-columns:repeat(2,1fr)}
+  @media(max-width:760px){.g3,.g2{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+  .card h3{font-size:17px;margin-bottom:8px}
+  .card p{color:var(--mut);font-size:14.5px}
+  .res{margin-top:12px;font-size:13px;color:var(--acc);font-weight:600}
+  .price{display:flex;align-items:baseline;gap:8px;margin-top:6px}
+  .price b{font-size:26px}
+  .price span{color:var(--mut);font-size:13px}
+  ul.steps{list-style:none;counter-reset:s;margin-top:20px;display:grid;gap:12px}
+  ul.steps li{counter-increment:s;padding-left:46px;position:relative;color:var(--mut)}
+  ul.steps li b{color:var(--txt)}
+  ul.steps li::before{content:counter(s);position:absolute;left:0;top:-2px;width:30px;height:30px;border-radius:8px;background:var(--bg2);border:1px solid var(--line);color:var(--acc);display:flex;align-items:center;justify-content:center;font-weight:700}
+  .final{text-align:center;padding:60px 0}
+  .final .lead{margin-bottom:22px}
+  footer{color:var(--mut);font-size:13px;text-align:center;padding:30px 0 50px;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav><div>Structured by AI<span class="acc">.</span></div><div class="pill">AI Automation Studio</div></nav>
+</div>
+
+<header>
+  <div class="wrap">
+    <h1>I build businesses that<br><span class="acc">run themselves.</span></h1>
+    <p class="tag">AI agents, chatbots, and automations that delete your team's busywork — built to run reliably at 3am, not just look good in a demo.</p>
+    <div class="cta">
+      <a class="btn" href="mailto:hello@structuredbyai.com">Automate something →</a>
+      <a class="btn ghost" href="#proof">See proof of work</a>
+    </div>
+    <div class="badges"><span>n8n · Make · Zapier</span><span>Claude &amp; GPT agents</span><span>RAG chatbots</span><span>Python &amp; APIs</span></div>
+  </div>
+</header>
+
+<section id="services">
+  <div class="wrap">
+    <h2>What I build</h2>
+    <div class="lead">Most "automation experts" wired up a few zaps. I <em>operate</em> autonomous AI systems for a living.</div>
+    <div class="grid g3">
+      <div class="card"><h3>AI lead agents</h3><p>Agents that qualify leads, score them against your ideal customer, and draft personalized outreach.</p></div>
+      <div class="card"><h3>App workflows</h3><p>Connect your CRM, email, Slack, Notion, Airtable &amp; Sheets — multi-step, with real error handling.</p></div>
+      <div class="card"><h3>Doc-trained chatbots</h3><p>RAG assistants that answer from <em>your</em> docs with citations — and refuse to hallucinate.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="proof">
+  <div class="wrap">
+    <h2>Proof of work</h2>
+    <div class="lead">Three working systems. Each one runs.</div>
+    <div class="grid g3">
+      <div class="card"><h3>AI Lead-Qualifier</h3><p>Scores a raw lead list against your ICP and writes a tailored opener for each.</p><div class="res">→ 10 leads → 3 hot / 6 warm / 1 cold, openers drafted</div></div>
+      <div class="card"><h3>Ask-Your-Docs (RAG)</h3><p>Answers strictly from your documents, with sources.</p><div class="res">→ correctly declined an out-of-scope question (no hallucination)</div></div>
+      <div class="card"><h3>Ops Autopilot (n8n)</h3><p>New lead → enrich → Slack alert + Airtable log + auto-reply email.</p><div class="res">→ clean, importable, documented workflow</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="process">
+  <div class="wrap">
+    <h2>How I work</h2>
+    <div class="lead">An operator's discipline, start to finish.</div>
+    <ul class="steps">
+      <li><b>Discovery.</b> I map the exact process and the win.</li>
+      <li><b>Build + test</b> on real data, then a short Loom walkthrough.</li>
+      <li><b>Clean handoff</b> with docs + monitoring, so it keeps running.</li>
+      <li><b>Care plan</b> (optional) to maintain and expand it monthly.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="wrap">
+    <h2>Packages</h2>
+    <div class="lead">Start small, scale into a retainer.</div>
+    <div class="grid g3">
+      <div class="card"><h3>Starter automation</h3><div class="price"><b>$300+</b></div><p>One workflow or chatbot flow, built and documented.</p></div>
+      <div class="card"><h3>System build</h3><div class="price"><b>$750–4k</b></div><p>Multi-tool workflow, RAG assistant, or full lead-gen agent.</p></div>
+      <div class="card"><h3>Care plan</h3><div class="price"><b>$500+</b><span>/mo</span></div><p>Maintain, monitor, and expand your automations.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="final">
+  <div class="wrap">
+    <h2 style="text-align:center">Let's automate it</h2>
+    <div class="lead">Got a process that eats your team's hours?<br>Tell me what it is — I'll reply with exactly how I'd put it on autopilot.</div>
+    <div class="cta" style="justify-content:center">
+      <a class="btn" href="mailto:hello@structuredbyai.com">Get in touch</a>
+      <a class="btn ghost" href="#services">See what I build</a>
+    </div>
+  </div>
+</section>
+
+<footer><div class="wrap">© 2026 Structured by AI · I build businesses that run themselves.</div></footer>
+</body>
+</html>
